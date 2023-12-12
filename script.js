@@ -38,14 +38,14 @@ let inHTML2 = '';
 const topProjects = document.getElementById('top-projects');
 console.log(topProjects);
 
-const filteredProjects = projects.filter((project) => project.name.toLowerCase().trim() === 'html & css');
+// const filteredProjects = projects.filter((project) => project.name.toLowerCase().trim() === 'html & css');
 
-filteredProjects.map((project) => {
-    inHTML2 += `<div class="myprojects2">
-    <img src="${project.image}" alt="HEY">
-    <br>
-    <p>${project.name}</p>
-    </div>`;
-});
+// filteredProjects.map((project) => {
+//     inHTML2 += `<div class="myprojects2">
+//     <img src="${project.image}" alt="HEY">
+//     <br>
+//     <p>${project.name}</p>
+//     </div>`;
+// });
 
-topProjects.innerHTML = inHTML2;
+// topProjects.innerHTML = inHTML2;
