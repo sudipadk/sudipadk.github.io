@@ -233,16 +233,17 @@ h3 {
 }
 
 h4{
+    font-size: 24px;
     margin-top: 5%;
     position: absolute;
-    left: 50%;
+    left: 45%;
     width: fit-content;
     border-bottom: 4px solid #e9b949;
 }
 
 .top-projects{
     position: absolute;
-    left: 25%;
+    left: 23%;
     margin-top: 10%;
     width: 50%;
     text-align: center;
@@ -253,6 +254,43 @@ h4{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);   
 }        
+
+.top-projects p{
+    padding-bottom: 10px;
+}
+
+.top-projects img{
+    height: 14rem;
+    width: 12rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.top-projects #description{
+    text-align: justify;
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    left: 15%;
+}
+
+
+#look{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 42%;
+    border-radius: 8px;
+    border: 1px solid var(--ACCENTCOLOR);
+    width: 128px;
+    height: 42px;
+}
+
+#look:hover{
+    background-color: var(--ACCENTCOLOR);
+    color: var(--DEFAULT-BGCOLOR);
+    transition: 0.5s linear ease-in;
+}
 
 
 .contactMe{
