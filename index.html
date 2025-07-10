@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 
     <title>Sudip Adhikari</title>
@@ -17,112 +17,102 @@
         <div class="logo">
             <h3>Sudip <span>Adhikari</span></h3>
         </div>
-        <div class="nav">
+        <nav class="nav">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#intro">About</a></li>
+                <li><a href="#skills">Skill</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contactMe">Contact</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
 
-    <div class="about-me" id="about-me">
-        <div class="subtext">
-            <h1>Hello! I am Sudip</h1>
-            <p>Freelancer, Web Designer UI/UX Designer</p><br><br>
-            Sudip: <q>Pushing the Vision into reality with code and creativity</q>
-            <br><br>
-            <button>Hire Me</button>
-            <div class="social-media">
-                <ion-icon name="logo-facebook"><a href="https://facebook.com"></a></ion-icon>
-                <ion-icon name="logo-twitter"></ion-icon>
-                <ion-icon name="logo-instagram"></ion-icon>
-                <ion-icon name="logo-linkedin"></ion-icon>
-                <ion-icon name="logo-dribbble"></ion-icon>
-                <ion-icon name="logo-github"></ion-icon>
+    <section class="about-me" id="about-me">
+        <div class="about-container">
+            <div class="subtext">
+                <h1>Hello! I am Sudip</h1>
+                <p class="roles">Freelancer, Web Designer, Frontend Developer</p>
+                <p class="about-description">
+                    I'm a passionate Frontend Developer with hands-on experience in React.js and the MERN Stack.
+                    I'm currently working on a full-stack project using MERN and have built several applications using
+                    PHP,
+                    HTML,
+                    CSS, and JavaScript. My work includes Figma designs and CRUD apps like ToDo lists, student systems,
+                    and
+                    inventory systems.
+                    <br /><br />
+                    I’m excited about new technologies and how fast the world evolves. I might not have formal work
+                    experience,
+                    but my willingness to learn, attention to detail, and problem-solving skills drive me to deliver
+                    quality
+                    results.
+                </p>
+
+                <blockquote>Sudip: <q>Code with passion, design with purpose.</q></blockquote>
+
+                <button>Hire Me</button>
+
+                <div class="social-media">
+                    <a href="https://facebook.com" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                    <ion-icon name="logo-dribbble"></ion-icon>
+                    <ion-icon name="logo-github"></ion-icon>
+                </div>
             </div>
-        </div>
-        <div class="image">
-            <img src="/img/sudip.jpg" alt="My Photo">
-        </div>
-    </div>
 
-    <div class="intro">
-        <p class="about">About Me</p>
-        <div class="innerimg">
-            <img src="/img/image.jpg" alt="image">
-        </div>
-        <p class="text">
-            I'm excited about technology and keeping up with all the world's changes. I find technology fascinating, and
-            I keep up with all the world's developments. I've worked with a variety of abilities, including Linux OS,
-            web development (MySQL), web design (HTML, CSS, JavaScript), and some experience with PHP and Java. Despite
-            the fact that I lack experience, my will to study makes up for it.
-            <br><br>
-            Working at any company is not my experience. I also speak English fluently and with comprehension. I do my
-            hardest on every task because I value precision. I'm capable of finishing any assignment on schedule and
-            getting the desired outcome. In addition to my technical skills, I have a strong ability to adapt to new
-            technologies and learn quickly. I have a proven track record of successfully completing projects within
-            deadlines and delivering high-quality results.
-            <br><br>
-            My dedication and attention to detail ensure that I consistently achieve the desired outcomes for any
-            assignment. I have the potential to excel in any role that requires a meticulous and detail-oriented
-            approach. Furthermore, my strong problem-solving skills enable me to overcome challenges and find innovative
-            solutions, making me a valuable asset to any team or project.
-        </p>
-
-    </div>
-
-    <p class="about">Technology and Tools</p>
-    <section class="projects-section" id="projects">
-        <div class="myprojects" id="myprojects">
-            <!-- <a href="#" class="projectstack"></a> -->
-            <img src="/img/html_css.png" alt="html & css">
-            <p>HTML and CSS</p>
+            <div class="image">
+                <img src="/images/s1.jpg" alt="My Photo" />
+            </div>
         </div>
     </section>
-    <!-- <div class="projects"> -->
-    <h4> My Projects</h4>
-    <div class="top-projects" id="top-projects">
-        <p><b>HTML and CSS</b></p>
-        <img src="/img/page.jpg" alt="html & css">
-        <p id="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. In unde ipsa impedit vel voluptas esse odit quo consequuntur adipisci omnis ut officia rerum necessitatibus nemo dolore sunt hic, quaerat laborum!</p>
-        <button id="look">See Project</button>
-    </div>
-</div>
 
-    <div class="contactMe">
-        <h2>Contact Me</h2>
-        <div class="form">
-            <form>
-                <p>
-                    <label for="name"><b> Name: </b></label><br>
-                    <input type="text" name="name" id="name" placeholder="enter your name">
-                </p>
-                <p>
-                    <label for="email"><b>Email:</b></label><br>
-                    <input type="email" name="email" id="email" placeholder="enter your email">
-                </p>
-                <p>
-                    <label for="message"><b>Message:</b></label><br>
-                    <textarea rows="5" cols="27" placeholder="Enter your message"></textarea>
-                </p>
-                <button>Submit</button>
-            </form>
-        </div>
-        <div class="links">
-            <p><b>Made by:</b> Sudip Adhikari</p>
-            <p>Connect to me Via:</p>
-            <div class="medias">
-                <ion-icon name="logo-facebook" style="color: #3b5998;"></ion-icon>
-                <ion-icon name="logo-linkedin" style="color: #0082ca;"></ion-icon>
-                <ion-icon name="logo-github" style="color: #333333;"></ion-icon>
-                <ion-icon name="logo-google" style="color: #34A853;"></ion-icon>
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+    </section>
+
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+    </section>
+
+    <!-- Contact Me Section -->
+    <section class="contactMe-section" id="contactMe">
+        <div class="contact-container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-info">
+                <p><strong>Name:</strong> Sudip Adhikari</p>
+                <p><strong>Email:</strong> <a href="mailto:sudip@example.com">sudip@example.com</a></p>
+                <p><strong>Address:</strong> Kathmandu, Nepal</p>
+            </div>
+            <div class="contact-links">
+                <a href="https://linkedin.com/in/yourlinkedin" target="_blank" aria-label="LinkedIn">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a href="https://instagram.com/yourinstagram" target="_blank" aria-label="Instagram">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="https://twitter.com/yourtwitter" target="_blank" aria-label="Twitter">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
             </div>
         </div>
-    </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <p>© 2025 Created by <span>Sudip Adhikari</span></p>
+    </footer>
+
+
 
 </body>
+<script type="module">
+    import { renderSkillsSection } from './skills.js';
 
-<script src="script.js"></script>
+    renderSkillsSection();
+</script>
+
 </html>
